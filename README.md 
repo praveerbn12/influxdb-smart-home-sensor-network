@@ -1,0 +1,25 @@
+# InfluxDB Smart Home Sensor Network
+
+A time-series database project that simulates smart-home sensor data and stores it in InfluxDB for querying, analysis, and dashboard visualization.
+
+## Project Overview
+
+This project simulates sensor readings from multiple rooms in a smart home environment. The generated data includes temperature, humidity, and motion readings collected at fixed time intervals.
+
+The goal of this project is to understand how time-series databases work and how InfluxDB can be used for IoT-style sensor data, monitoring, and observability use cases.
+
+## Tech Stack
+
+- InfluxDB 2.7
+- Python
+- Docker Compose
+- Grafana
+- Flux Query Language
+- InfluxDB Python Client
+
+## Data Model
+
+Measurement:
+
+```text
+sensors
